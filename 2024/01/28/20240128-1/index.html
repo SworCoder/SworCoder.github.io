@@ -26,24 +26,24 @@
 <meta property="og:site_name" content="SworCoder">
 <meta property="og:description" content="在Obsidian里面，文件排序只能按照文件名、创建时间和编辑时间的排序依据来进行排序，无法满足手动排序的需求，本文通过Bartender插件来实现Obsidian目录文件手动排序，来实现如下图所示的效果">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/result.gif">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/1-1.png">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/1-2.png">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/1-3.png">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/1-4.png">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/1-5.png">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/2-1.png">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/2-2.png">
+<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/c840e2cf1c2f8770-1706592086260-7.gif">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/395c6322de9eb91c.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/9923abc4d8c11bba.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/60d81f753b98ccd2.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/9102fd9e3dde2616.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/ea78a0f2fd75a2bc.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/5e34c137bb40a3bb.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/6c72afabfb611bd5.png">
 <meta property="og:image" content="http://example.com/2024/01/28/20240128-1/2-3.png">
 <meta property="og:image" content="http://example.com/2024/01/28/20240128-1/2-4.png">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/rearrange.png">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/Custom.png">
-<meta property="og:image" content="http://example.com/2024/01/28/20240128-1/result.gif">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/aaca6bbafc2b6423.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/acc4266e3c7b803a.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2024/01/30/c840e2cf1c2f8770.gif">
 <meta property="article:published_time" content="2024-01-28T03:14:03.585Z">
-<meta property="article:modified_time" content="2024-01-28T08:37:39.365Z">
+<meta property="article:modified_time" content="2024-01-30T05:28:57.067Z">
 <meta property="article:author" content="SworCoder">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/2024/01/28/20240128-1/result.gif">
+<meta name="twitter:image" content="http://example.com/2024/01/28/20240128-1/c840e2cf1c2f8770-1706592086260-7.gif">
   
   
   
@@ -99,12 +99,12 @@
 
 <div class="bread-nav fs12"><div class="left"><div id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a></div>
-<div id="post-meta"><span class="author">发布于：</span><span class="created"><time datetime="2024-01-28T03:14:03.585Z">2024-01-28</time></span><span class="updated">，更新于：<time datetime="2024-01-28T08:37:39.365Z">2024-01-28</time></span></div></div>
+<div id="post-meta"><span class="author">发布于：</span><span class="created"><time datetime="2024-01-28T03:14:03.585Z">2024-01-28</time></span><span class="updated">，更新于：<time datetime="2024-01-30T05:28:57.067Z">2024-01-30</time></span></div></div>
 </div>
 <article class="md-text content"><h1 class="article-title"><span>Bartender插件实现Obsidian文件手动排序</span></h1><p>在Obsidian里面，文件排序只能按照文件名、创建时间和编辑时间的排序依据来进行排序，无法满足手动排序的需求，本文通过Bartender插件来实现Obsidian目录文件手动排序，来实现如下图所示的效果</p>
 <span id="more"></span>
 
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/result.gif" alt="result"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/c840e2cf1c2f8770-1706592086260-7.gif" alt="result"></p>
 <blockquote>
 <p><strong><font color="red">本文所使用的Obsidian版本为1.4.16，Bartender插件版本为0.5.7（该插件版本可能对高于此版本的Obsidian不适用）</font></strong></p>
 <p><strong>若您使用的是较高版本的Obsidian，并且您想回滚到旧版本的Obsidian，请依次按照下面的步骤执行：</strong></p>
@@ -113,27 +113,27 @@
 <blockquote>
 <p><font color="red"><strong>安装Bartender插件，以下两种方式选其一种即可</strong></font></p>
 </blockquote>
-<h2 id="一、通过BRAT插件安装Bartender插件"><a href="#一、通过BRAT插件安装Bartender插件" class="headerlink" title="一、通过BRAT插件安装Bartender插件"></a>一、通过BRAT插件安装Bartender插件</h2><h3 id="1-在Obsidian的社区插件市场中下载并安装BRAT插件"><a href="#1-在Obsidian的社区插件市场中下载并安装BRAT插件" class="headerlink" title="1.在Obsidian的社区插件市场中下载并安装BRAT插件"></a>1.在Obsidian的社区插件市场中下载并安装BRAT插件</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/1-1.png"></p>
-<h3 id="2-启动BRAT插件"><a href="#2-启动BRAT插件" class="headerlink" title="2.启动BRAT插件"></a>2.启动BRAT插件</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/1-2.png"></p>
+<h2 id="一、通过BRAT插件安装Bartender插件"><a href="#一、通过BRAT插件安装Bartender插件" class="headerlink" title="一、通过BRAT插件安装Bartender插件"></a>一、通过BRAT插件安装Bartender插件</h2><h3 id="1-在Obsidian的社区插件市场中下载并安装BRAT插件"><a href="#1-在Obsidian的社区插件市场中下载并安装BRAT插件" class="headerlink" title="1.在Obsidian的社区插件市场中下载并安装BRAT插件"></a>1.在Obsidian的社区插件市场中下载并安装BRAT插件</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/395c6322de9eb91c.png"></p>
+<h3 id="2-启动BRAT插件"><a href="#2-启动BRAT插件" class="headerlink" title="2.启动BRAT插件"></a>2.启动BRAT插件</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/9923abc4d8c11bba.png"></p>
 <h3 id="3-通过BRAT插件添加Bartender插件"><a href="#3-通过BRAT插件添加Bartender插件" class="headerlink" title="3.通过BRAT插件添加Bartender插件"></a>3.通过BRAT插件添加Bartender插件</h3><p>找到BRAT插件，点击“Add Beta plugin with frozen version”</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/1-3.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/60d81f753b98ccd2.png"></p>
 <p>在输入栏中输入如下图所示的信息，然后点击“Add Plugin”按钮</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/nothingislost/obsidian-bartender</span><br><span class="line">0.5.7</span><br></pre></td></tr></table></figure>
 
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/1-4.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/9102fd9e3dde2616.png"></p>
 <p>当多出如下图所示的信息后，重启Obsidian</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/1-5.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/ea78a0f2fd75a2bc.png"></p>
 <h2 id="二、手动安装Bartender插件"><a href="#二、手动安装Bartender插件" class="headerlink" title="二、手动安装Bartender插件"></a>二、手动安装Bartender插件</h2><blockquote>
 <p><strong>若您的网络不能正常访问GitHub，可能无法使用第一种方法，第二种方法属于纯手工安装。</strong></p>
 <p><strong>请先下载Bartender插件：<a target="_blank" rel="noopener" href="https://www.123pan.com/s/SRk7Vv-BFjXH.html">123云盘下载</a></strong></p>
 </blockquote>
-<h3 id="1-在Obsidian插件文件夹中新建名为obsidian-bartender的文件夹"><a href="#1-在Obsidian插件文件夹中新建名为obsidian-bartender的文件夹" class="headerlink" title="1.在Obsidian插件文件夹中新建名为obsidian-bartender的文件夹"></a>1.在Obsidian插件文件夹中新建名为obsidian-bartender的文件夹</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/2-1.png"></p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/2-2.png"></p>
+<h3 id="1-在Obsidian插件文件夹中新建名为obsidian-bartender的文件夹"><a href="#1-在Obsidian插件文件夹中新建名为obsidian-bartender的文件夹" class="headerlink" title="1.在Obsidian插件文件夹中新建名为obsidian-bartender的文件夹"></a>1.在Obsidian插件文件夹中新建名为obsidian-bartender的文件夹</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/5e34c137bb40a3bb.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/6c72afabfb611bd5.png"></p>
 <h3 id="2-将压缩包中文件复制到上一步新建文件夹中，然后重启Obsidian"><a href="#2-将压缩包中文件复制到上一步新建文件夹中，然后重启Obsidian" class="headerlink" title="2.将压缩包中文件复制到上一步新建文件夹中，然后重启Obsidian"></a>2.将压缩包中文件复制到上一步新建文件夹中，然后重启Obsidian</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/2-3.png"></p>
 <h3 id="3-启动Bartender插件，然后重启Obsidian"><a href="#3-启动Bartender插件，然后重启Obsidian" class="headerlink" title="3.启动Bartender插件，然后重启Obsidian"></a>3.启动Bartender插件，然后重启Obsidian</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/2-4.png"></p>
-<h2 id="Bartender插件的使用步骤"><a href="#Bartender插件的使用步骤" class="headerlink" title="Bartender插件的使用步骤"></a>Bartender插件的使用步骤</h2><h3 id="1-重启Obsidian后，Obsidian界面的左上角会多出“Drag-to-rearrange”按钮，点击此按钮"><a href="#1-重启Obsidian后，Obsidian界面的左上角会多出“Drag-to-rearrange”按钮，点击此按钮" class="headerlink" title="1.重启Obsidian后，Obsidian界面的左上角会多出“Drag to rearrange”按钮，点击此按钮"></a>1.重启Obsidian后，Obsidian界面的左上角会多出“Drag to rearrange”按钮，点击此按钮</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/rearrange.png"></p>
-<h3 id="2-点击左边的双箭头排序按钮，选择“Custom”"><a href="#2-点击左边的双箭头排序按钮，选择“Custom”" class="headerlink" title="2.点击左边的双箭头排序按钮，选择“Custom”"></a>2.点击左边的双箭头排序按钮，选择“Custom”</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/Custom.png"></p>
-<h3 id="3-此时就能选择文件来随意拖动啦"><a href="#3-此时就能选择文件来随意拖动啦" class="headerlink" title="3.此时就能选择文件来随意拖动啦"></a>3.此时就能选择文件来随意拖动啦</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/2024/01/28/20240128-1/result.gif" alt="result"></p>
+<h2 id="Bartender插件的使用步骤"><a href="#Bartender插件的使用步骤" class="headerlink" title="Bartender插件的使用步骤"></a>Bartender插件的使用步骤</h2><h3 id="1-重启Obsidian后，Obsidian界面的左上角会多出“Drag-to-rearrange”按钮，点击此按钮"><a href="#1-重启Obsidian后，Obsidian界面的左上角会多出“Drag-to-rearrange”按钮，点击此按钮" class="headerlink" title="1.重启Obsidian后，Obsidian界面的左上角会多出“Drag to rearrange”按钮，点击此按钮"></a>1.重启Obsidian后，Obsidian界面的左上角会多出“Drag to rearrange”按钮，点击此按钮</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/aaca6bbafc2b6423.png"></p>
+<h3 id="2-点击左边的双箭头排序按钮，选择“Custom”"><a href="#2-点击左边的双箭头排序按钮，选择“Custom”" class="headerlink" title="2.点击左边的双箭头排序按钮，选择“Custom”"></a>2.点击左边的双箭头排序按钮，选择“Custom”</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/acc4266e3c7b803a.png"></p>
+<h3 id="3-此时就能选择文件来随意拖动啦"><a href="#3-此时就能选择文件来随意拖动啦" class="headerlink" title="3.此时就能选择文件来随意拖动啦"></a>3.此时就能选择文件来随意拖动啦</h3><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s3.bmp.ovh/imgs/2024/01/30/c840e2cf1c2f8770.gif"></p>
 
 <div class="article-footer fs14">
     <section id="license">
